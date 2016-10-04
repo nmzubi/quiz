@@ -1,0 +1,146 @@
+
+<html>
+<head>
+<title>Coffee Shop Quiz</title>
+</head>
+<style>
+body {
+    background-color: #000000;
+	color: #ffffff;
+	font-family: "Verdana";
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 25px;
+	text-align: center;
+}
+
+.caffiene {
+	max-width: 200px;
+	width: 100%;
+}
+
+.coffee {
+	max-width: 200px;
+	width: 100%;
+}
+
+.sweet {
+	max-width: 200px;
+	width: 100%;
+}
+
+.fruity {
+	max-width: 200px;
+	width: 100%
+}
+
+.flavor {
+	max-width: 200px;
+	width: 100%;
+}
+
+.milk {
+	max-width: 200px;
+	width: 100%;
+}
+
+.temp {
+	max-width: 200px;
+	width: 100%;
+}
+
+.size {
+	max-width: 200px;
+	width: 100%;
+}
+
+.dessert {
+	max-width: 200px;
+	width: 100%;
+}
+
+.budget {
+	max-width: 200px;
+	width: 100%;
+}
+</style>
+<body>
+<h1>Coffee Shop Quiz</h1>
+<form>
+Do you go to coffee shops for caffeine?
+<blockquote>
+    <input type="radio" name="caffeine" id="yesCaffeine" value="Yes"> <label for="yesCaffeine">Yes, I live and thrive by consuming massive amounts of caffeine</label> 
+    <br><input type="radio" name="caffeine" id="noCaffeine" value="No"> <label for="noCaffeine">No, caffeine isn't necessary for me</label> 
+    <br><input type="radio" name="caffeine" id="maybeCaffeine" value="Maybe"> <label for="maybeCaffeine">Sometimes I get caffeine but I don't <i>need</i> it</label> 
+</blockquote>
+Do you like the taste of coffee?
+<blockquote>
+    <input type="radio" name="coffee" id="yesCoffee" value="Yes"> <label for="yesCoffee">Yes, I thought this was a quiz about <i>coffee</i> shops</label> 
+    <br><input type="radio" name="coffee" id="noCoffee" value="No"> <label for="noCoffee">No, I think coffee is icky</label> 
+    <br><input type="radio" name="coffee" id="maybeCoffee" value="Maybe"> <label for="maybeCoffee">I like coffee but I like other stuff too</label> 
+</blockquote>
+Do you like sweet stuff?
+<blockquote>
+    <input type="radio" name="sweet" id="yesSweet" value="Yes"> <label for="yesSweet">Yes, I like sweet beverages</label> 
+    <br><input type="radio" name="sweet" id="noSweet" value="No"> <label for="noSweet">No because I'm sweet enough already</label> 
+    <br><input type="radio" name="sweet" id="maybeSweet" value="Maybe"> <label for="maybeSweet">Depends on my mood</label> 
+</blockquote>
+Do you like fruity flavored stuff?
+<blockquote>
+    <input type="radio" name="fruity" id="yesFruity" value="Yes"> <label for="yesFruity">Yes, I like fruity flavors</label> 
+    <br><input type="radio" name="fruity" id="noFruity" value="No"> <label for="noFruity">No, I don't like fruity flavors</label> 
+    <br><input type="radio" name="fruity" id="maybeFruity" value="Maybe"> <label for="maybeFruity">Depends on what the drink is</label> 
+</blockquote>
+What flavor do you prefer?
+<blockquote>
+    <input type="radio" name="flavor" id="flavorChocolate" value="Chocolate"> <label for="flavorChocolate">Chocolate</label> 
+    <br><input type="radio" name="flavor" id="flavorVanilla" value="Vanilla"> <label for="flavorVanilla">Vanilla</label> 
+    <br><input type="radio" name="flavor" id="flavorAny" value="Any"> <label for="flavorAny">Surprise me</label> 
+	<br><input type="radio" name="flavor" id="flavorPlain" value="Plain"> <label for="flavorPlain">I don't like any flavor. I just like things plain.</label>
+</blockquote>
+Do you like milk?
+<blockquote>
+    <input type="radio" name="milk" id="yesMilk" value="Yes"> <label for="yesMilk">Yes, I like milk based or milk substitute based drinks</label> 
+    <br><input type="radio" name="milk" id="noMilk" value="No"> <label for="noMilk">No, I don't like milk or milk substitutes</label> 
+    <br><input type="radio" name="milk" id="maybeMilk" value="Maybe"> <label for="maybeMilk">Depends on my mood</label> 
+</blockquote>
+Hot or cold?
+<blockquote>
+    <input type="radio" name="temp" id="tempHot" value="Hot"> <label for="tempHot">Hot</label> 
+    <br><input type="radio" name="temp" id="tempCold" value="Cold"> <label for="tempCold">Cold</label> 
+    <br><input type="radio" name="temp" id="tempFrozen" value="Frozen"> <label for="tempFrozen">Frozen</label>
+	<br><input type="radio" name="temp" id="tempAny" value="Any"> <label for="tempAny">Surprise me</label>
+</blockquote>
+How big of a drink do you usually go for?
+<blockquote>
+    <input type="radio" name="size" id="sizeTiny" value="Tiny"> <label for="sizeTiny">One that I can drink really fast, preferably in just one sip.</label> 
+    <br><input type="radio" name="temp" id="sizeReg" value="Reg"> <label for="sizeReg">I like to sip on my drink, any regular size will do</label> 
+    <br><input type="radio" name="temp" id="sizeHuge" value="Huge"> <label for="Huge">I need it to be at least twice the size of my head</label>
+</blockquote>
+Do you go to the coffee shop for dessert?
+<blockquote>
+    <input type="radio" name="dessert" id="dessertYes" value="Yes"> <label for="dessertYes">Yes, isn't that the appropriate place to purchase a dessert?</label> 
+    <br><input type="radio" name="dessert" id="dessertNo" value="No"> <label for="dessertNo">No, I don't want to drink a dessert when I go to a coffee shop</label> 
+    <br><input type="radio" name="dessert" id="dessertMaybe" value="Maybe"> <label for="dessertMaybe">Maybe once in a while</label>
+</blockquote>
+What is your budget like?
+<blockquote>
+    <input type="radio" name="budget" id="budgetHigh" value="High"> <label for="budgetHigh">The sky's the limit!</label> 
+    <br><input type="radio" name="budget" id="budgetLow" value="Low"> <label for="budgetLow">I'm not looking to spend a lot of money on a beverage</label> 
+</blockquote>
+<input type="button" id="quizButton" value="Get Results">
+</form>
+<p id="quizParagraph"></p>
+</body>
+<script>
+function init() {
+	var button = document.getElementById('quizButton');
+	button.onclick = checkQuiz;
+}
